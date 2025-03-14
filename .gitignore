@@ -1,0 +1,55 @@
+# Node and npm
+node_modules/
+npm-debug.log*
+package-lock.json
+yarn.lock
+
+# Electron Build Artifacts
+dist/
+out/
+*.asar
+*.db
+
+# Platform-Specific Files
+*.exe
+*.app
+*.dmg
+*.deb
+*.rpm
+*.snap
+*.msi
+
+# Logs
+logs/
+*.log
+*.log.*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Electron Cache and Temporary Files
+.cache/
+.temp/
+electron-packager/
+electron-builder-cache/
+
+# Environment Files
+.env
+.env.local
+.env.development
+.env.production
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# IDE/Editor Settings
+.vscode/
+.idea/
+*.swp
+
+# Git and Dependency Files
+*.bak
+*.orig
+.history/

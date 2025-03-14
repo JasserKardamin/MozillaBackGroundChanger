@@ -1,0 +1,36 @@
+{
+  "name": "bg-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "An Electron app for BG (background) tasks.",
+  "devDependencies": {
+    "electron": "^35.0.1",
+    "electron-builder": "^25.1.8"
+  },
+  "type": "module",
+  "build": {
+    "appId": "com.example.bgapp",
+    "productName": "MozillaBackgroundChanger",
+    "win": {
+      "target": "nsis",
+      "icon": "./assets/image/icon.png"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "./assets/image/icon.png"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "./assets/image/icon.png"
+    }
+  }
+}
